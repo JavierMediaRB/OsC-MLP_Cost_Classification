@@ -36,7 +36,7 @@ The code can be downloaded directly from this repository. Also, to run the code 
 The WR-CMLP method has a notebook to reproduce the load, training and prediction for the CS2 dataset. The notebook must be executed with the specified environment.
 
 The notebook:
-- WR-CMLP: example_tutorial_WR-CMLP_method.ipynb ; execute with [env_cocoa](#Environment) environment
+- WR-CMLP: example_tutorial_WR-CMLP_method.ipynb ; execute with [env_WR_CMLP_method](#Environment) environment
 
 ## 1.1. Environment for WR-CMLP method
 
