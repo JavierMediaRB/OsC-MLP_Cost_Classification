@@ -10,9 +10,9 @@ import tqdm
 import typing
 
 
-class WR_CMLP_model(torch.nn.Module):
+class OsC_MLP_model(torch.nn.Module):
     """
-    This class implements the tools to train and make predictions with the WR-CMLP method implemented in pytorch.
+    This class implements the tools to train and make predictions with the OsC-MLP method implemented in pytorch.
     """
 
     def __init__(self, input_size: int, hidden_size: int) -> None:
@@ -24,7 +24,7 @@ class WR_CMLP_model(torch.nn.Module):
             hidden_size (int): The number of hidden neurons on the NN model.
         """
 
-        super(WR_CMLP_model, self).__init__()
+        super(OsC_MLP_model, self).__init__()
 
         self.n_out = 1
         self.a0 = torch.from_numpy(numpy.array(1., dtype=numpy.float)).double()
@@ -209,7 +209,7 @@ class WR_CMLP_model(torch.nn.Module):
                             metrics: bool = True,
                             ) -> typing.List[numpy.ndarray]:
         """
-        This function trains the WR-CMLP method and plots some optional graphics and metrics to measure the performance
+        This function trains the OsC-MLP method and plots some optional graphics and metrics to measure the performance
         and the behaviour of the training process.
 
         Args:
