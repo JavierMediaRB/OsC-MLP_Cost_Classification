@@ -84,6 +84,13 @@ If you use the OsC-MLP method in your research, please consider citing it.
 BibTeX entry:
 
 ```
-...
+@article{mediavilla2024one,
+  title={One-step Bayesian example-dependent cost classification: The OsC-MLP method},
+  author={Mediavilla-Rela{\~n}o, Javier and L{\'a}zaro, Marcelino},
+  journal={Neural Networks},
+  pages={106168},
+  year={2024},
+  publisher={Elsevier}
+}
 ```
 
